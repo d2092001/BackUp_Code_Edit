@@ -1116,6 +1116,7 @@
             </div>
         </div>
         <hr>
+        <hr class="mobile-hr">
         <div class="footer-legal" style="
     display: flex;
     justify-content: center;
@@ -1135,6 +1136,12 @@
         </div>
     </div>
     <style>
+        .footer-legal img {
+            width: 35px;
+        }
+        .mobile-hr{
+            display: none;
+        }
         .mobile-show {
             display: none;
         }
@@ -1145,8 +1152,15 @@
         .footer p{
             margin: 0px;
         }
-
+        .footer .region{
+            margin-bottom: 0px;
+        }
         @media (max-width: 767px) {
+            .mobile-hr{
+                display: block;
+                position: relative;
+                top: -119px;
+            }
             .mobile-show {
                 display: block;
             }

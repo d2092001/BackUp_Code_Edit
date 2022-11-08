@@ -1,0 +1,35 @@
+
+//đoạn schema mẫu như sau:
+<script type="application/ld+json">
+  {
+  "@context": "http://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Giảm thất thoát hàng hóa",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "
+  <strong><a href=https: //www.sapo.vn/phan-mem-quan-ly-kho.html>Phần mềm quản lý kho</a></strong> sẽ giúp chủ cửa hàng biết chính xác sự thay đổi về hàng hóa hàng ngày, cũng như lịch sử mọi giao dịch. Từ đó, biết rõ nguyên nhân từ đâu và hạn chế tình trạng thất thoát"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Không lo thiếu hàng, tồn quá lâu",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Với sự trợ giúp của phần mềm, chủ cửa hàng có thể dễ dàng biết được mặt hàng nào sắp hết, mặt hàng nào tồn kho quá lâu để có kế hoạch bổ sung hàng hóa hoặc xả hàng kịp thời"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Tiết kiệm 50% chi phí",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bạn không cần phải tốn nhiều chi phí và nhân lực kiểm kho mỗi ngày vì mọi hành động xuất nhập tồn hàng hóa đều được thao tác trên cùng 1 phần mềm kho, rất dễ truy xuất và quản lý"
+      }
+    }
+  ]
+}
+
