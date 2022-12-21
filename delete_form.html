@@ -1,0 +1,15 @@
+<script>
+    jQuery(document).ready(function(){
+        var timingInterval = setInterval(function(){
+            if(jQuery('.menu-colexp').length){
+                document.querySelectorAll('.aimarketing-form-wrap')[0].style.display = "none"
+                jQuery('.contact-hrm').hide()
+            }
+        },100);
+        setTimeout(function(){
+            clearInterval(timingInterval)
+        },5000);
+    })
+</script>
+
+jQuery('#form-preview-iframe').hide()

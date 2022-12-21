@@ -1,0 +1,43 @@
+<!-- áp dụng cho toàn trang -->
+<script>
+    jQuery(document).ready(function(){
+jQuery('#td-outer-wrap > div.td-main-content-wrap.td-container-wrap > div.container.td-post-template-default > div > div.td-pb-span6.td-main-content.td-content-post > div.td-ss-main-content > div.lucky-box > div').text('Tính năng hộp quà may mắn sẽ ra mắt vào ngày 1/1/2023. ')
+    })
+
+    jQuery(".more-knowledge li a").each(function() {
+   jQuery(this).attr("target","_blank");
+     });
+</script>
+
+
+<!-- trang chung thì thêm cái cho HRM -->
+<script>
+    jQuery(document).ready(function(){
+jQuery('#td-outer-wrap > div.td-main-content-wrap.td-container-wrap > div.container.td-post-template-default > div > div.td-pb-span6.td-main-content.td-content-post > div.td-ss-main-content > div.lucky-box > div').text('Tính năng hộp quà may mắn sẽ ra mắt vào ngày 1/1/2023. ')
+    })
+</script>
+
+
+<!-- chỉnh sửa tại chuyên mục chung  -->
+<script>
+    jQuery('.product-list').prepend('<div class="product-item"><div class="item-ctn"><img src="/wp-content/uploads/2022/12/Asset-4@4x.png" alt="AMIS Công việc" class="lazyloaded" data-ll-status="loaded"><noscript><img src="/wp-content/uploads/2022/12/Asset-4@4x.png" alt="AMIS Công việc"></noscript><div class="product-name">HRM Tổng thể</span></div></div><a target="_blank" href="https://amis.misa.vn/amis-nhan-su/">Bắt đầu</a></div>')
+</script>
+
+<script>
+    jQuery(document).ready(function(){
+        var timingInterval = setInterval(function(){
+            if(jQuery('.contact-hrm').length){
+                if(jQuery('.menu-colexp').length){
+                    document.querySelectorAll('.aimarketing-form-wrap')[0].style.display = "none"
+                    jQuery('.contact-hrm').hide()
+                    jQuery('.banner-url-bottom').hide()
+                    jQuery('.banner-url-left').hide()
+                    jQuery('.popup-scroll-50').hide()
+                }
+            }  
+        },100);
+        setTimeout(function(){
+            clearInterval(timingInterval)
+        },5000);
+    })
+</script>

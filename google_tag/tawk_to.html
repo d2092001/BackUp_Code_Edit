@@ -1,0 +1,90 @@
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{};
+     
+    var Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/6281c5bb7b967b11798f7e84/1g35eoq4h';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    
+    
+      
+    //function custom
+    var customize_tawk = ""; /*Interval object*/
+    var custom_var = "";
+    
+    function customize_tawk_widget(){
+            jQuery("iframe[title='chat widget']").eq(1).addClass("custom-chat-widget");
+    
+            clearInterval(customize_tawk);
+        }
+    function cusomt_wid_2() {  document.querySelector('iframe.custom-chat-widget').contentDocument.querySelectorAll('a.tawk-branding')[1].style.display = "none ";
+    //none thanh dưới
+    if(document.querySelectorAll('iframe[title="chat widget"]')[1].contentDocument.getElementsByClassName('tawk-text-center')[3]){document.querySelectorAll('iframe[title="chat widget"]')[1].contentDocument.getElementsByClassName('tawk-text-center')[3].style.display= 'none';}
+      
+      //header
+    document.querySelectorAll('iframe[title="chat widget"]')[1].contentDocument.getElementsByClassName('tawk-toolbar')[0].style.height = "5px";
+    
+    //dưới header
+    if(document.querySelectorAll('iframe[title="chat widget"]')[1].contentDocument.getElementsByClassName("tawk-header-container")[1]){document.querySelectorAll('iframe[title="chat widget"]')[1].contentDocument.getElementsByClassName("tawk-header-container")[1].style.height = '40px';}
+    
+    //căn giữa text
+    if(document.querySelectorAll('iframe[title="chat widget"]')[1].contentDocument.getElementsByClassName("tawk-header-container")[1]){document.querySelectorAll('iframe[title="chat widget"]')[1].contentDocument.getElementsByClassName("tawk-header-container")[1].style.paddingLeft = "13px";}
+                             
+                             
+    clearInterval(custom_var);         } 
+      
+    //custom tawk.to
+    Tawk_API = Tawk_API || {};
+    Tawk_API.onChatMaximized  = function(){
+      var customize_tawk = setInterval(customize_tawk_widget, 100);
+      var custom_var = setInterval(cusomt_wid_2,100);}  
+    
+    var x = screen.width;
+    if(x >= 979){  
+    window.Tawk_API = window.Tawk_API || {};
+    window.Tawk_API.onLoad = function(){
+    
+        window.Tawk_API.maximize()
+      
+    };} 
+      
+      
+    window.Tawk_API = window.Tawk_API || {};
+    window.Tawk_API.onChatStarted = function(){
+        var custom_var = clearTimeout(custom_var);
+    };  
+      
+    // Day su kien tawk.to từ API tawk.to thong qua GTM
+    
+        var dataLayerPush = function(event){
+                              dataLayer.push({
+                                  'event': 'tawk.to',
+                                  'eventAction': event,           
+                                
+                              });
+                                  console.log({
+                                  'event': 'tawk.to',
+                                  'eventAction': event
+                              });
+                              }
+      
+      Tawk_API.onChatStarted = function(){
+        dataLayerPush("Chat Started");
+        };
+      Tawk_API.onPrechatSubmit = function(data){
+       dataLayerPush("Prechat form submitted");
+        };
+      Tawk_API.onOfflineSubmit = function(data){
+        dataLayerPush("Offline Chat submit");
+        };
+      
+      
+      
+    </script>
+    <!--End of Tawk.to Script-->

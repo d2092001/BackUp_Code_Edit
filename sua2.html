@@ -1,3 +1,25 @@
+<script>
+    jQuery(document).ready(function(){
+        var timingInterval = setInterval(function(){
+            if(jQuery('.contact-hrm').length){
+                if(jQuery('.menu-colexp').length){
+                    document.querySelectorAll('.aimarketing-form-wrap')[0].style.display = "none"
+                    jQuery('.contact-hrm').hide()
+                    jQuery('.banner-url-bottom').hide()
+                    jQuery('.banner-url-left').hide()
+                }
+                if(jQuery('.popup-scroll-50')){
+                    jQuery('.popup-scroll-50').hide()
+                }
+            }  
+        },100);
+        setTimeout(function(){
+            clearInterval(timingInterval)
+        },5000);
+    })
+</script>
+
+
 <!-- wp:html -->
 <link rel="stylesheet" href="/sites/amis/css/pages/amis-hrm.css?ver=4" />
 <section class="amis-hrm" role="tabpanel">
@@ -29,11 +51,11 @@
                             <div class="carousel-inner">
                                 <div class="col-md-10 col-sm-24 banner-text">
                                     <h1 class="title text-bold">
-                                        Giải pháp quản trị<br> nguồn <span class="nowrap">nhân lực</span>
+                                        Bộ giải pháp Quản trị<br> Nhân sự toàn diện
                                     </h1>
                                     <div class="sub-title">
-                                        Phần mềm quản lý nhân sự AMIS HRM hiệu quả<br> và chuyên nghiệp hàng
-                                        đầu <span class="nowrap">Việt Nam</span>
+                                        Bộ giải pháp Quản trị Nhân sự toàn diện<br> MISA AMIS HRM đồng hành cùng hơn 17.000+ khách hàng  
+                                        <span class="nowrap">doanh nghiệp</span>
                                     </div>
                                     <div class="banner-btn">
                                         <a class="btn-base btn-white" target="_blank" href="https://amis.misa.vn/register?appcode=HRM&s=amis-web" rel="noopener">Dùng thử miễn phí</a>
@@ -48,11 +70,11 @@
                             <div class="carousel-inner">
                                 <div class="col-md-10 col-sm-24 banner-text">
                                     <h1 class="title">
-                                        Giải pháp quản trị<br> nguồn <span class="nowrap">nhân lực</span>
+                                        Bộ giải pháp Quản trị<br> Nhân sự toàn diện
                                     </h1>
                                     <div class="sub-title">
-                                        Phần mềm quản lý nhân sự AMIS HRM hiệu quả<br> và chuyên nghiệp hàng đầu <span
-                                            class="nowrap">Việt Nam</span>
+                                        Bộ giải pháp Quản trị Nhân sự toàn diện<br> MISA AMIS HRM đồng hành cùng hơn 17.000+ khách hàng  
+                                        <span class="nowrap">doanh nghiệp</span>
                                     </div>
                                     <div class="banner-btn">
                                         <a class="btn-base btn-white" target="_blank" href="https://amis.misa.vn/register?appcode=HRM&s=amis-web" rel="noopener">Dùng thử miễn phí</a>
@@ -73,12 +95,11 @@
                     <div class="row">
                         <div class="col-md-24">
                             <h1 class="common-title text-center">
-                                Phần mềm AMIS HRM - Xu hướng quản trị nhân sự 4.0
+                                Bộ giải pháp MISA AMIS HRM - Xu hướng quản trị nhân sự 4.0
                             </h1>
                         </div>
                         <div class="col-md-24">
-                            <div class="text-center">Phần mềm HRM giúp tối ưu và giải quyết nhanh chóng mọi bài toán
-                                nhân sự</div>
+                            <div class="text-center">Bộ giải pháp Quản trị Nhân sự toàn diện MISA AMIS giúp tối ưu và giải quyết nhanh chóng mọi bài toán nhân sự</div>
                             <div class="trending-ctn hide">
                                 <div id="TrendingFirst">
                                     <h2 class="common-title">Quy trình quản lý nhân sự thông minh và hiệu quả </h2>
@@ -369,8 +390,7 @@
                 <div class="container-custom">
                     <div class="row">
                         <h2 class="col-md-24 common-title text-center text-bold">
-                            Lợi ích khi sử dụng phần mềm <br>
-                            quản lý nhân sự AMIS HRM
+                            Lợi ích khi sử dụng MISA AMIS HRM
                         </h2>
                         <div class="col-md-24 benefit-tab-box">
                             <ul>
@@ -378,7 +398,13 @@
                                     <a class="btn-base" href="#tab_CEO" data-toggle="tab"><h3>CEO</h3></a>
                                 </li>
                                 <li>
-                                    <a class="btn-base" href="#tab_Manager" data-toggle="tab"><h3>Nhà quản lý</h3></a>
+                                    <a class="btn-base" href="#tab_Manager" data-toggle="tab"><h3>Quản lý nhân sự</h3></a>
+                                </li>
+                                <li>
+                                    <a class="btn-base" href="#tab_IT" data-toggle="tab"><h3>IT</h3></a>
+                                </li>
+                                <li>
+                                    <a class="btn-base" href="#tab_CB" data-toggle="tab"><h3>C&B</h3></a>
                                 </li>
                                 <li>
                                     <a class="btn-base" href="#tab_Employee" data-toggle="tab"><h3>Nhân viên</h3></a>
@@ -488,6 +514,100 @@
                                         <div id="benefitTab23" class="tab-pane benefit-wrap">
                                             <img class="img-responsive"
                                                 src="/sites/amis/images/pages/amis-hrm/img-hrm-6.png" alt="AMIS HRM">
+                                        </div>
+                                    </div>
+                                    <!-- end tab child -->
+                                    <div class="abs-round"></div>
+                                </div>
+                            </div>
+							<div id="tab_IT" class="tab-pane benefit-wrap">
+                                <div class="col-md-24 tab-benefit-content">
+                                    <!-- tab child -->
+                                    <div class="col-md-24 benefit-tab-box">
+                                        <ul class="btb-list">
+                                            <li class="active">
+                                                <a href="#benefitTab21" data-toggle="tab">
+                                                    <div class="text-bold text-blue benefit-tab-title">Đồng bộ toàn dữ liệu trên 1 nền tảng</div>
+                                                    <div>Dễ dàng quản lý và kiểm soát tất cả các nghiệp vụ Nhân sự & mọi phòng ban trên 1 hệ thống phần mềm.</div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#benefitTab22" data-toggle="tab">
+                                                    <div class="text-bold text-blue benefit-tab-title">Công nghệ tiên tiến vượt trội</div>
+                                                    <div>Ứng dụng AI, Máy học giúp scan, gợi ý và nhập liệu hồ sơ ứng viên; Trợ lý ảo báo cáo tình hình nhân sự.</div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#benefitTab23" data-toggle="tab">
+                                                    <div class="text-bold text-blue benefit-tab-title">Bảo mật theo tiêu chuẩn ISO</div>
+                                                    <div>Toàn bộ dữ liệu được lưu trữ trên Cloud, phân quyền sử dụng tài nguyên. Đạt tiêu chuẩn Tier 3, ISO 27000 và CSA STAR.</div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <div class="banner-btn">
+                                            <a class="btn-base btn-blue" target="_blank" href="https://amis.misa.vn/register?appcode=HRM&s=amis-web" rel="noopener">Dùng thử miễn phí</a>
+                                            <a class="btn-base btn-border-blue btn-recieve">Nhận tư vấn</a>
+                                        </div>
+                                    </div>
+                                    <div class="tab-content">
+                                        <div id="benefitTab21" class="tab-pane active benefit-wrap">
+                                            <img class="img-responsive"
+                                                src="/wp-content/uploads/2022/12/bao-cao-tien-luong-1.webp" alt="AMIS HRM">
+                                        </div>
+                                        <div id="benefitTab22" class="tab-pane benefit-wrap">
+                                            <img class="img-responsive"
+                                                src="/wp-content/uploads/2022/12/bao-cao-tien-luong-1.webp" alt="AMIS HRM">
+                                        </div>
+                                        <div id="benefitTab23" class="tab-pane benefit-wrap">
+                                            <img class="img-responsive"
+                                                src="/wp-content/uploads/2022/12/bao-cao-tien-luong-1.webp" alt="AMIS HRM">
+                                        </div>
+                                    </div>
+                                    <!-- end tab child -->
+                                    <div class="abs-round"></div>
+                                </div>
+                            </div>
+							<div id="tab_CB" class="tab-pane benefit-wrap">
+                                <div class="col-md-24 tab-benefit-content">
+                                    <!-- tab child -->
+                                    <div class="col-md-24 benefit-tab-box">
+                                        <ul class="btb-list">
+                                            <li class="active">
+                                                <a href="#benefitTab21" data-toggle="tab">
+                                                    <div class="text-bold text-blue benefit-tab-title">Đồng bộ dữ liệu tính lương giữa <br> Kế toán - Nhân sự</div>
+                                                    <div>Tự động chuyển Bảng tổng hợp chi trả & Bảng phân bổ lương cho Kế toán vào cuối tháng, không cần mất nhiều thời gian và tránh sai sót số liệu.</div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#benefitTab22" data-toggle="tab">
+                                                    <div class="text-bold text-blue benefit-tab-title">Hạch toán lương ngay trên phần mềm AMIS Kế toán</div>
+                                                    <div>Kế toán nhận được thông báo yêu cầu chi trả lương và dễ dàng hạch toán tiền lương ngay trên phần mềm AMIS Kế toán.</div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#benefitTab23" data-toggle="tab">
+                                                    <div class="text-bold text-blue benefit-tab-title">Tính lương nhàn nhã sau 1 lần thiết lập</div>
+                                                    <div>Tự động tính lương với công thức gợi ý sẵn. Tự động tính các khoản khấu trừ theo quy định trên hồ sơ & quy định Nhà nước.</div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <div class="banner-btn">
+                                            <a class="btn-base btn-blue" target="_blank" href="https://amis.misa.vn/register?appcode=HRM&s=amis-web" rel="noopener">Dùng thử miễn phí</a>
+                                            <a class="btn-base btn-border-blue btn-recieve">Nhận tư vấn</a>
+                                        </div>
+                                    </div>
+                                    <div class="tab-content">
+                                        <div id="benefitTab21" class="tab-pane active benefit-wrap">
+                                            <img class="img-responsive"
+                                                src="/wp-content/uploads/2022/12/tinh-luong-1.webp" alt="AMIS HRM">
+                                        </div>
+                                        <div id="benefitTab22" class="tab-pane benefit-wrap">
+                                            <img class="img-responsive"
+                                                src="/wp-content/uploads/2022/12/tinh-luong-1.webp" alt="AMIS HRM">
+                                        </div>
+                                        <div id="benefitTab23" class="tab-pane benefit-wrap">
+                                            <img class="img-responsive"
+                                                src="/wp-content/uploads/2022/12/tinh-luong-1.webp" alt="AMIS HRM">
                                         </div>
                                     </div>
                                     <!-- end tab child -->

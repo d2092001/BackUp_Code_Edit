@@ -1,0 +1,489 @@
+<!-- wp:html -->
+<link rel="stylesheet" href="/sites/amis/css/pages/amis-executive.css?ver=4" />
+<section class="amis-executive" role="tabpanel">
+    <div class="amis-executive-tab" id="sticky-menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-24 amis-executive-tab-wrap">
+                    <div class="page-name-header">AMIS DIGITAL WORKPLACE</div>
+                    <ul>
+                        <li class="active"><a href="#overview" data-toggle="tab">Tổng quan</a></li>
+                        <li><a href="#benefit" data-toggle="tab">Lợi ích</a></li>
+                        <li><a href="/tag/digital-workplace">Thư viện Digital Workplace</a></li>
+                        <li><a href="https://store.misa.vn/?activetab=6" target="_blank" rel="noopener">Mua ngay</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tab-content">
+        <div id="overview" class="tab-pane active">
+            <div class="amis-executive-banner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-24 amis-executive-banner-text">
+                            <h1 class="executive-banner-title">
+                                <div class="executive-banner-title-1">Bộ giải pháp điều hành</div>
+                                <div class="executive-banner-title-2">MISA AMIS DIGITAL WORKPLACE</div>
+                            </h1>
+                            <div class="executive-banner-description">Giúp doanh nghiệp xây dựng môi trường làm việc số <br /><span class="nowrap">toàn diện</span></div>
+                            <div class="cls-button-banner">
+                                <a href="https://amis.misa.vn/register/?appcode=Task&s_pd=quan-ly-dieu-hanh" class="btn-item btn-free-trial" target="_blank" rel="noopener">Trải nghiệm miễn phí</a>
+                                <a href="https://store.misa.vn/?activetab=6" class="btn-item btn-buy-now" target="_blank" rel="noopener">Mua ngay</a>
+                                <a class="btn-item btn-advisory" href="#register">Nhận tư vấn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--<a href="https://ladizone.com/misa/amis_campaignt5combo-mdr?utm_source=amis&utm_medium=cpc&utm_campaign=amis-comboT5&utm_term=promo-t5" target="_blank" class="banner-t5" rel="nofollow noopener">
+                <img class="view-d" src="/sites/amis/images/banner_t5.jpg" alt="Ưu đãi tháng 5" />
+                <img class="view-m" src="/sites/amis/images/banner_t5_mobile.jpg" alt="Ưu đãi tháng 5" />
+            </a>-->
+            <div class="section-temp amis-executive-video">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="col-md-24 amis-executive-title">
+                            Kiến tạo môi trường làm việc số <br />
+                            lý tưởng cho <span class="nowrap">doanh nghiệp</span>
+                        </h2>
+                        <div class="col-md-24 ae-video-wrap">
+                            <div src="https://www.youtube.com/embed/dZJEOHU3-y4?autoplay=1" class="amv-video-content play-video-item">
+                                <div class="amv-video-img">
+                                    <img src="/sites/amis/images/pages/amis-executive/bg_video.svg" class="img-responsive" alt="Kiến tạo môi trường làm việc số lý tưởng cho doanh nghiệp">
+                                </div>
+                                <div class="amv-video-play">
+                                    <img src="/sites/amis/images/pages/home/ic-play.svg" class="img-responsive" alt="play">
+                                </div>
+                            </div>
+                            <img src="/sites/amis/images/pages/amis-executive/dot.svg" class="img-responsive img-dot" alt="dot">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-temp amis-executive-connect">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-24 amis-executive-title-small">Kỷ nguyên công việc của tương lai</div>
+                        <h2 class="col-md-24 amis-executive-title">Không chỉ là công việc, còn là <span class="nowrap">sự kết nối</span></h2>
+                        <ul class="col-md-24 ae-connect-content">
+                            <li>
+                                <div class="ae-connect-item">
+                                    <img class="img-responsive ae-connect-item-icon" src="/sites/amis/images/pages/amis-executive/ic_giaotiep.svg" alt="Giao tiếp" />
+                                    <h3 class="ae-connect-item-title">Giao tiếp</h3>
+                                    <div class="ae-connect-item-des">Nhân viên từ nhiều chi nhánh, bộ phận dễ dàng kết nối, giao tiếp trên cùng một nền tảng.</div>
+                                    <div class="ae-product-item">
+                                        <div class="ae-product-logo">
+                                            <img src="/sites/amis/images/pages/amis-executive/ic_AMIS_MXH.svg" class="img-responsive" alt="logo">
+                                        </div>
+                                        <div class="ae-product-name">AMIS Mạng xã hội DN</div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ae-connect-item">
+                                    <img class="img-responsive ae-connect-item-icon" src="/sites/amis/images/pages/amis-executive/ic_hoptac.svg" alt="Hợp tác" />
+                                    <h3 class="ae-connect-item-title">Hợp tác</h3>
+                                    <div class="ae-connect-item-des">Cung cấp công cụ để nhân viên cộng tác, kết nối & chia sẻ thông tin nhanh hơn, làm việc nhóm hiệu quả hơn.</div>
+                                    <div class="ae-product-item">
+                                        <div class="ae-product-logo">
+                                            <img src="/sites/amis/images/pages/amis-executive/ic_AMIS_congviec.svg" class="img-responsive" alt="AMIS Công việc">
+                                        </div>
+                                        <div class="ae-product-name">AMIS Công việc</div>
+                                    </div>
+                                    <div class="ae-product-item">
+                                        <div class="ae-product-logo">
+                                            <img src="/sites/amis/images/pages/amis-executive/ic_AMIS_phonghop.svg" class="img-responsive" alt="AMIS Phòng họp">
+                                        </div>
+                                        <div class="ae-product-name">AMIS Phòng họp</div>
+                                    </div>
+                                    <div class="ae-product-item">
+                                        <div class="ae-product-logo">
+                                            <img src="/sites/amis/images/pages/amis-executive/ic_AMIS-WESIGN.svg" class="img-responsive" alt="AMIS Wesign">
+                                        </div>
+                                        <div class="ae-product-name">AMIS Wesign</div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ae-connect-item">
+                                    <img class="img-responsive ae-connect-item-icon" src="/sites/amis/images/pages/amis-executive/ic_trithuc.svg" alt="Tri thức" />
+                                    <h3 class="ae-connect-item-title">Tri thức</h3>
+                                    <div class="ae-connect-item-des">Nền tảng trí thức được sắp xếp & tổ chức khoa học giúp cho việc tìm kiếm, chia sẻ nhanh chóng, hiệu quả.</div>
+                                    <div class="ae-product-item">
+                                        <div class="ae-product-logo">
+                                            <img src="/sites/amis/images/pages/amis-executive/ic_AMIS_ghichep.svg" class="img-responsive" alt="AMIS Ghi chép">
+                                        </div>
+                                        <div class="ae-product-name">AMIS Ghi chép</div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ae-connect-item">
+                                    <img class="img-responsive ae-connect-item-icon" src="/sites/amis/images/pages/amis-executive/ic_quytrinh.svg" alt="Quy trình" />
+                                    <h3 class="ae-connect-item-title">Quy trình</h3>
+                                    <div class="ae-connect-item-des">Tự động hóa quy trình làm việc liên phòng ban, kiểm soát thực thi & đánh giá hiệu quả chính xác.</div>
+                                    <div class="ae-product-item">
+                                        <div class="ae-product-logo">
+                                            <img src="/sites/amis/images/pages/amis-executive/ic_AMIS_taisan.svg" class="img-responsive" alt="AMIS Tài sản">
+                                        </div>
+                                        <div class="ae-product-name">AMIS Tài sản</div>
+                                    </div>
+                                    <div class="ae-product-item">
+                                        <div class="ae-product-logo">
+                                            <img src="/sites/amis/images/pages/amis-executive/ic_AMIS_quytrinh.svg" class="img-responsive" alt="AMIS Quy trình">
+                                        </div>
+                                        <div class="ae-product-name">AMIS Quy trình</div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="section-temp amis-executive-library">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-24 amis-executive-title-small">Ứng dụng</div>
+                        <h2 class="col-md-24 amis-executive-title">Trọn bộ ứng dụng trong giải pháp <span class="nowrap">Digital Workplace</span></h2>
+                        <ul class="col-md-24 ae-library-content">
+                            <li>
+                                <div class="ae-library-item">
+                                    <img class="img-responsive ae-library-item-icon" src="/sites/amis/images/pages/amis-executive/ic_AMIS_congviec.svg" alt="AMIS Công việc" />
+                                    <h3 class="ae-library-item-title">AMIS Công việc</h3>
+                                    <div class="ae-library-item-des">Giao nhận việc nhanh chóng, nắm bắt tiến độ tức thời, đánh giá minh bạch</div>
+                                    <div class="ae-library-item-button">
+                                        <a href="/amis-cong-viec">Khám phá</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ae-library-item">
+                                    <img class="img-responsive ae-library-item-icon" src="/sites/amis/images/pages/amis-executive/ic_AMIS_taisan.svg" alt="AMIS Tài sản" />
+                                    <h3 class="ae-library-item-title">AMIS Tài sản</h3>
+                                    <div class="ae-library-item-des">Quản lý tài sản tập trung, kiểm kê nhanh chóng qua mobile</div>
+                                    <div class="ae-library-item-button">
+                                        <a href="/amis-tai-san">Khám phá</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ae-library-item">
+                                    <img class="img-responsive ae-library-item-icon" src="/sites/amis/images/pages/amis-executive/ic_AMIS_MXH.svg" alt="AMIS Mạng xã hội DN" />
+                                    <h3 class="ae-library-item-title">AMIS Mạng xã hội DN</h3>
+                                    <div class="ae-library-item-des">Truyền thông chủ trương, chính sách nhất quán, kịp thời, nhanh chóng</div>
+                                    <div class="ae-library-item-button">
+                                        <a href="/amis-mang-xa-hoi-doanh-nghiep">Khám phá</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ae-library-item">
+                                    <img class="img-responsive ae-library-item-icon" src="/sites/amis/images/pages/amis-executive/ic_AMIS_quytrinh.svg" alt="AMIS Quy trình" />
+                                    <h3 class="ae-library-item-title">AMIS Quy trình</h3>
+                                    <div class="ae-library-item-des">Số hóa hệ thống quy trình doanh nghiệp</div>
+                                    <div class="ae-library-item-button">
+                                        <a href="/14424/phan-mem-quan-ly-quy-trinh/">Khám phá</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ae-library-item">
+                                    <img class="img-responsive ae-library-item-icon" src="/sites/amis/images/pages/amis-executive/ic_AMIS_ghichep.svg" alt="AMIS Ghi chép" />
+                                    <h3 class="ae-library-item-title">AMIS Ghi chép</h3>
+                                    <div class="ae-library-item-des">Lưu trữ tài liệu tập trung, an toàn và tra cứu mọi lúc, mọi nơi</div>
+                                    <div class="ae-library-item-button">
+                                        <a href="/amis-ghi-chep">Khám phá</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ae-library-item">
+                                    <img class="img-responsive ae-library-item-icon" src="/sites/amis/images/pages/amis-executive/ic_AMIS_phonghop.svg" alt="AMIS Phòng họp" />
+                                    <h3 class="ae-library-item-title">AMIS Phòng họp</h3>
+                                    <div class="ae-library-item-des">Tìm kiếm, đặt và quản lý phòng họp mọi lúc, mọi nơi</div>
+                                    <div class="ae-library-item-button">
+                                        <a href="/amis-phong-hop">Khám phá</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ae-library-item">
+                                    <img class="img-responsive ae-library-item-icon" src="/sites/amis/images/pages/amis-executive/ic_AMIS-WESIGN.svg" alt="AMIS Wesign" />
+                                    <h3 class="ae-library-item-title">AMIS Wesign</h3>
+                                    <div class="ae-library-item-des">Tự động hóa toàn bộ quy trình ký kết, tiết kiệm thời gian, giảm thiểu chi phí cho <span class="nowrap">doanh nghiệp</span></div>
+                                    <div class="ae-library-item-button">
+                                        <a href="/amis-wesign">Khám phá</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="benefit" class="tab-pane">
+            <div class="benefit-banner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-24 benefit-banner-content">
+                            <div class="col-md-11 benefit-banner-text">
+                                <div class="benefit-banner-title">AMIS <span class="nowrap">DIGITAL WORKPLACE</span></div>
+                                <div class="benefit-banner-sub-title">
+                                    Giải pháp toàn diện xây dựng môi trường <span class="nowrap">làm việc số</span>
+                                </div>
+                                <ul class="benefit-banner-description">
+                                    <li>Quản lý quy trình, công việc, tài sản, tri thức & truyền thông nội bộ trên một nền tảng số duy nhất.</li>
+                                    <li>Đáp ứng linh hoạt các chức năng cho nhà lãnh đạo, cấp quản lý & nhân viên giúp tối đa hiệu suất công việc, linh hoạt làm việc mọi lúc mọi nơi.</li>
+                                </ul>
+                                <div class="cls-button-banner">
+                                    <a href="https://amis.misa.vn/register/?appcode=Task&s_pd=quan-ly-dieu-hanh" class="btn-item btn-free-trial" target="_blank" rel="noopener">Trải nghiệm miễn phí</a>
+                                    <a href="https://store.misa.vn/?activetab=6" class="btn-item btn-buy-now" target="_blank" rel="noopener">Mua ngay</a>
+                                    <a class="btn-item btn-advisory" href="#register">Nhận tư vấn</a>
+                                </div>
+                            </div>
+                            <div class="col-md-13 benefit-banner-img">
+                                <img src="/sites/amis/images/pages/amis-executive/img_banner.svg" class="img-responsive" alt="AMIS DIGITAL WORKPLACE">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="benefit-content">
+                <div class="container">
+                    <div class="col-md-24 benefit-content-wrap">
+                        <div class="col-md-24 benefit-group">
+                            <h2 class="benefit-group-title">
+                                <span>CEO</span>
+                            </h2>
+                            <div class="col-md-24 benefit-group-content">
+                                <div class="col-md-8 benefit-group-img">
+                                    <img src="/sites/amis/images/pages/amis-executive/img_ceo.svg" class="img-responsive" alt="CEO">
+                                </div>
+                                <ul class="col-md-15 col-md-push-1 benefit-group-text">
+                                    <li>
+                                        <div class="benefit-item-img">
+                                            <img src="/sites/amis/images/pages/amis-executive/img_benefit_nang-cao-nang-suat-doi-ngu.svg" class="img-responsive" alt="Nâng cao năng suất đội ngũ">
+                                        </div>
+                                        <div class="benefit-item-title">Nâng cao năng suất đội ngũ</div>
+                                        <div class="benefit-item-des">Trao quyền tự chủ công việc cho các quản lý nhưng vẫn dễ dàng đánh giá, giám sát với hệ thống quy trình và báo cáo real-time.</div>
+                                    </li>
+                                    <li>
+                                        <div class="benefit-item-img">
+                                            <img src="/sites/amis/images/pages/amis-executive/img_benefit_kiem-soat-moi-quy-trinh-hieu-qua.svg" class="img-responsive" alt="Kiểm soát mọi quy trình hiệu quả">
+                                        </div>
+                                        <div class="benefit-item-title">Kiểm soát mọi quy trình hiệu quả</div>
+                                        <div class="benefit-item-des">Cho phép việc phân quyền hệ thống, giao việc, chia sẻ dữ liệu, cộng tác liên phòng ban & kiểm soát tiến độ dễ dàng.</div>
+                                    </li>
+                                    <li>
+                                        <div class="benefit-item-img">
+                                            <img src="/sites/amis/images/pages/amis-executive/img_benefit_thuc-day-van-hoa-doanh-nghiep.svg" class="img-responsive" alt="Thúc đẩy văn hóa doanh nghiệp">
+                                        </div>
+                                        <div class="benefit-item-title">Thúc đẩy văn hóa doanh nghiệp</div>
+                                        <div class="benefit-item-des">Gia tăng trải nghiệm cho nhân viên với các công cụ tối tân. <br />Tương tác nhanh chóng & gắn kết mọi thành viên với không gian làm việc linh hoạt.</div>
+                                    </li>
+                                    <li>
+                                        <div class="benefit-item-img">
+                                            <img src="/sites/amis/images/pages/amis-executive/img_benefit_dieu-hanh-tu-xa-tai-bat-cu-dau.svg" class="img-responsive" alt="Điều hành từ xa tại bất cứ đâu">
+                                        </div>
+                                        <div class="benefit-item-title">Điều hành từ xa tại bất cứ đâu</div>
+                                        <div class="benefit-item-des">Tùy chỉnh, tích hợp hệ thống báo cáo lên một màn hình duy nhất giúp CEO quản lý tất cả các chỉ số quan trọng của doanh nghiệp ngay cả khi làm việc từ xa.</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-24 benefit-group">
+                            <h2 class="benefit-group-title">
+                                <span>Nhà quản lý</span>
+                            </h2>
+                            <div class="col-md-24 benefit-group-content">
+                                <div class="col-md-8 benefit-group-img">
+                                    <img src="/sites/amis/images/pages/amis-executive/img_nhaquanly.svg" class="img-responsive" alt="Nhà quản lý">
+                                </div>
+                                <ul class="col-md-15 col-md-pull-1 benefit-group-text">
+                                    <li>
+                                        <div class="benefit-item-img">
+                                            <img src="/sites/amis/images/pages/amis-executive/img_benefit_so-hoa-toan-bo-quy-trinh.svg" class="img-responsive" alt="Số hóa toàn bộ quy trình">
+                                        </div>
+                                        <div class="benefit-item-title">Số hóa toàn bộ quy trình</div>
+                                        <div class="benefit-item-des">Quy trình tự động, kế thừa & liên thông dữ liệu giữa các phòng ban giúp tiết kiệm thời gian, tăng sự chính xác.</div>
+                                    </li>
+                                    <li>
+                                        <div class="benefit-item-img">
+                                            <img src="/sites/amis/images/pages/amis-executive/img_benefit_hop-tac-de-dang.svg" class="img-responsive" alt="Hợp tác dễ dàng">
+                                        </div>
+                                        <div class="benefit-item-title">Hợp tác dễ dàng</div>
+                                        <div class="benefit-item-des">Với hệ thống nền tảng mở, bạn có thể đồng bộ dữ liệu nhanh chóng với các giải pháp quản trị doanh nghiệp đang sử dụng khác.</div>
+                                    </li>
+                                    <li>
+                                        <div class="benefit-item-img">
+                                            <img src="/sites/amis/images/pages/amis-executive/img_benefit_quan-ly-tap-trung.svg" class="img-responsive" alt="Quản lý tập trung">
+                                        </div>
+                                        <div class="benefit-item-title">Quản lý tập trung</div>
+                                        <div class="benefit-item-des">Không cần chuyển đổi giữa hàng tá ứng dụng riêng lẻ, bộ giải pháp Digitial Workplace cho phép thực hiện tất cả công việc trên một nền tảng duy nhất.</div>
+                                    </li>
+                                    <li>
+                                        <div class="benefit-item-img">
+                                            <img src="/sites/amis/images/pages/amis-executive/img_benefit_nang-cao-nang-suat-doi-ngu.svg" class="img-responsive" alt="Nâng cao năng suất đội ngũ">
+                                        </div>
+                                        <div class="benefit-item-title">Nâng cao năng suất đội ngũ</div>
+                                        <div class="benefit-item-des">Tập trung đội ngũ vào những mục tiêu & chỉ số quan trọng nhất. Đo lường hiệu quả bằng hệ thống báo cáo trực quan.</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-24 benefit-group">
+                            <h2 class="benefit-group-title">
+                                <span>Nhân viên</span>
+                            </h2>
+                            <div class="col-md-24 benefit-group-content">
+                                <div class="col-md-8 benefit-group-img">
+                                    <img src="/sites/amis/images/pages/amis-executive/img_nhanvien.svg" class="img-responsive" alt="Nhân viên">
+                                </div>
+                                <ul class="col-md-15 col-md-push-1 benefit-group-text">
+                                    <li>
+                                        <div class="benefit-item-img">
+                                            <img src="/sites/amis/images/pages/amis-executive/img_benefit_tang-cuong-chia-se-tri-thuc.svg" class="img-responsive" alt="Tăng cường chia sẻ tri thức">
+                                        </div>
+                                        <div class="benefit-item-title">Tăng cường chia sẻ tri thức</div>
+                                        <div class="benefit-item-des">Truy cập kho dữ liệu mọi lúc mọi nơi. Dễ dàng chia sẻ tri thức với đồng nghiệp, phát huy khả năng sáng tạo, sáng kiến.</div>
+                                    </li>
+                                    <li>
+                                        <div class="benefit-item-img">
+                                            <img src="/sites/amis/images/pages/amis-executive/img_benefit_hop-tac-chat-che-hon.svg" class="img-responsive" alt="Hợp tác chặt chẽ hơn">
+                                        </div>
+                                        <div class="benefit-item-title">Hợp tác chặt chẽ hơn</div>
+                                        <div class="benefit-item-des">Giao tiếp, kết nối với đồng nghiệp, khách hàng & đối tác ở khắp mọi nơi, mọi thời điểm.</div>
+                                    </li>
+                                    <li>
+                                        <div class="benefit-item-img">
+                                            <img src="/sites/amis/images/pages/amis-executive/img_benefit_nang-cao-trai-nghiem-nhan-vien.svg" class="img-responsive" alt="Nâng cao trải nghiệm nhân viên">
+                                        </div>
+                                        <div class="benefit-item-title">Nâng cao trải nghiệm nhân viên</div>
+                                        <div class="benefit-item-des">Mọi tương tác, giao tiếp và quá trình thực thi đều diễn ra trên một nền tảng giúp tiết kiệm thời gian, thao tác.</div>
+                                    </li>
+                                    <li>
+                                        <div class="benefit-item-img">
+                                            <img src="/sites/amis/images/pages/amis-executive/img_benefit_nang-cao-hieu-suat-cong-viec.svg" class="img-responsive" alt="Nâng cao hiệu suất công việc">
+                                        </div>
+                                        <div class="benefit-item-title">Nâng cao hiệu suất công việc</div>
+                                        <div class="benefit-item-des">Hệ thống thông báo sẽ tự động nhắc nhở công việc, làm việc theo quy trình giúp giảm tải sự chồng chéo, sai sót.</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="section-temp register" id="register">
+	<div class="container">
+		<div class="row">
+<h2 class="col-md-24 amis-executive-title">Đăng ký nhận tư vấn giải pháp Quản lý <span class="nowrap">điều hành</span></h2>
+			<div class="col-md-24 register-wrap">
+				<div class="col-md-13 register-text">
+					<div>Khám phá sức mạnh của giải pháp Quản lý <span class="nowrap">điều hành</span></div>
+					<div>AMIS Công việc – Phần mềm quản lý công việc toàn diện <span class="nowrap">& thông minh nhất</span></div>
+					<div>AMIS Ghi chép – Nơi ghi chép, lưu trữ toàn bộ các tài liệu, tri thức của <span class="nowrap">doanh nghiệp</span></div>
+					<div>AMIS Tài sản – Quản lý tài sản ở tất cả các bộ phận, an toàn, tiết kiệm, <span class="nowrap">hiệu quả</span></div>
+					<div>AMIS Mạng xã hội – Lan tỏa văn hóa <span class="nowrap">doanh nghiệp</span></div>
+					<div>AMIS Phòng họp - Quản lý phòng họp <span class="nowrap">thông minh</span></div>
+				</div>
+				<div class="col-md-10 col-md-offset-1">
+					<div class="register-form">
+						<!-- AMIS aiMarketing Form Embed Code -->
+							<div class="aimarketing-form-embed-code">
+								<script env=production id="ladizone-form-renderer" src="https://amismisa.misacdn.net/apps/aimarketing/form-editor/static/js/form-renderer.js"></script>
+								<script render-for="1f34cdf3-c081-45b1-9d61-4aff033aa4cd">
+									globalThis.lzfr.renderExternalForm({formId: "1f34cdf3-c081-45b1-9d61-4aff033aa4cd", tenantId: "56c33c47-78ec-4b3a-92ba-9fdb7830a6d4", domainUnomi: "https://ladizone.com" });
+								</script>
+							</div>    
+						 <!-- end AMIS aiMarketing Form Embed Code -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+    <div class="section-temp digital-workplace">
+        <div class="container">
+            <div class="row">
+                <h2 class="col-md-24 digital-workplace-title">Digital Workplace</h2>
+                <div class="col-md-24 digital-workplace-subtitle">Không gian làm việc số của mọi <span class="nowrap">doanh nghiệp 4.0</span></div>
+                <div class="col-md-24 cls-button-digital-workplace">
+                    <a href="https://amis.misa.vn/register/?appcode=Task&s_pd=quan-ly-dieu-hanh" class="btn-item btn-free-trial" target="_blank" rel="noopener">Trải nghiệm miễn phí</a>
+                    <a href="https://store.misa.vn/?activetab=6" class="btn-item btn-buy-now" target="_blank" rel="noopener">Mua ngay</a>
+                    <a href="#register" class="btn-item btn-advisory">Nhận tư vấn</a>
+                </div>
+                <div class="col-md-24 digital-workplace-content">
+                    <div class="dw-col">
+                        <div class="dw-col-item">Tổng Quan</div>
+                        <div class="dw-col-content">
+                            <a href="">AMIS DIGITAL WORKPLACE</a>
+                            <a href="">Người dùng</a>
+                            <a href="https://amis.misa.vn/register?s_pd=amis-web" target="_blank" rel="noopener">Dùng thử</a>
+                            <a href="https://store.misa.vn/?activetab=6" target="_blank" rel="noopener">Mua ngay</a>
+                        </div>
+                    </div>
+                    <div class="dw-col">
+                        <div class="dw-col-item">Lợi Ích</div>
+                        <div class="dw-col-content">
+                            <a href="/tag/hop-tac/">Hợp tác</a>
+                            <a href="/tag/giao-tiep/">Giao tiếp</a>
+                            <a href="/tag/quy-trinh/">Quy trình</a>
+                            <a href="/tag/tri-thuc/">Tri thức</a>
+                        </div>
+                    </div>
+                    <div class="dw-col dw-col-real">
+                        <div class="dw-col-item">Thư viện Digital Workplace</div>
+                        <div class="dw-col-content">
+                            <a href="/14335/digital-workplace-la-gi">Digital Workplace là gì</a>
+                            <a href="/14339/loi-ich-cua-digital-workplace">Lợi ích Digital Workplace</a>
+                            <a href="/14341/moi-truong-lam-viec-so">So sánh với môi trường truyền thống</a>
+                            <a href="/14343/trien-khai-digital-workplace">Triển khai Digital Workplace</a>
+                        </div>
+                    </div>
+                    <div class="dw-col">
+                        <div class="dw-col-item">Ứng Dụng</div>
+                        <div class="dw-col-content">
+                            <a href="/amis-cong-viec">Amis Công việc</a>
+                            <a href="/amis-mang-xa-hoi-doanh-nghiep">AMIS Mạng Xã Hội</a>
+                            <a href="/amis-tai-san">AMIS Tài sản</a>
+                            <a href="/amis-ghi-chep">AMIS Ghi chép</a>
+                            <a href="/amis-phong-hop">AMIS Phòng họp</a>
+                            <a href="/14424/phan-mem-quan-ly-quy-trinh">AMIS Quy trình</a>
+                        </div>
+                    </div>
+                    <div class="dw-col">
+                        <div class="dw-col-item">Kiến Thức</div>
+                        <div class="dw-col-content">
+                            <a href="https://www.youtube.com/watch?v=rJhrZRemRL0&list=PLt9Hw3fZbjDzsrAGL2RUAhC-9ia2w6z5J" target="_blank" rel="noopener">Câu chuyện khách hàng</a>
+                            <a href="/tin-tuc/quan-tri-doanh-nghiep">Hướng dẫn & Ebook</a>
+                            <a href="/tin-tuc/quan-tri-doanh-nghiep">Tài liệu</a>
+                        </div>
+                    </div>
+                    <div class="dw-col dw-col-fake">
+                        <div class="dw-col-item">Thư viện Digital Workplace</div>
+                        <div class="dw-col-content">
+                            <a href="/14335/digital-workplace-la-gi">Digital Workplace là gì</a>
+                            <a href="/14339/loi-ich-cua-digital-workplace">Lợi ích Digital Workplace</a>
+                            <a href="/14341/moi-truong-lam-viec-so">So sánh với môi trường truyền thống</a>
+                            <a href="/14343/trien-khai-digital-workplace">Triển khai Digital Workplace</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="windmill">
+                <img class="img-responsive" src="/sites/amis/images/pages/amis-executive/img_windmill.svg" alt="Digital Workplace" />
+            </div>
+        </div>
+    </div>
+</section>
+<script src="/sites/amis/js/pages/amis-executive.js?ver=1"></script>
+<!-- /wp:html -->
+<style>
+    .ae-library-item-title{
+        font-size: 16px;
+    }
+</style>

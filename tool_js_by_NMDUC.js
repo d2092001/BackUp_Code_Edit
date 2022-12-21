@@ -99,3 +99,39 @@ function JSONToCSVConvertor(JSONData, ReportTitle, ShowLabel) {
     document.body.removeChild(link);
 }
 JSONToCSVConvertor(jsonObj, "xuất", true);
+
+//lấy param url
+
+var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = window.location.search.substring(1),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+        }
+    }
+    return false;
+};
+// https://amis.misa.vn/37111/thiet-lap-muc-tieu-cong-viec/?to_register=yes?emailId=1dd39089-27dc-45ac-a18d-9d2f91bdc510
+var tech = getUrlParameter('to_register');
+
+//!jquery
+jQuery(document).ready(function(){
+    jQuery.urlParam = function(name){
+        var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+        if (results==null) {
+           return null;
+        }
+        return decodeURI(results[1]) || 0;
+    }
+    //lăn chuột đến element
+    var elem = jQuery('to_register');
+    if(jQuery.urlParam('to_register')) {
+        jQuery(window).scrollTop(elem.offset().top).scrollLeft(elem.offset().left);
+    }
+})
